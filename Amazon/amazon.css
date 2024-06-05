@@ -1,0 +1,208 @@
+
+.nav-left{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-shrink: 0;
+    width: 21%;
+    
+}
+.logo{
+    width: 140px;
+    /* margin-top: 15px; */
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.logo:hover{
+    border:1px;
+    border-style: solid;
+    border-color: white;  
+    border-radius: 4px; 
+}
+.locdetls{
+    line-height: 3px
+}
+.locdetls:hover{
+    border:1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 4px;
+}
+.deliver{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(209, 208, 208);
+    font-size: 13px;
+    font-weight: 500;
+}
+.location{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.nav-center{
+    display: flex;
+    padding-left: 17px;
+    align-items: center;
+
+}
+
+.drop
+{
+    width: 50px; height: 43px; background-color: rgb(235, 235, 235);color: rgb(88, 88, 88); text-align: center;border-top-left-radius: 4px;border-bottom-left-radius: 4px;border: 0 solid white;  
+}
+.drop:hover{
+    background-color: rgb(190, 190, 190);
+    color: black;
+    
+}
+
+.searchicon{
+    width: 45px;height: 45px;
+}
+.searchicon button{
+    width:50px;
+    height: 44px;
+    border: 0;
+    box-shadow: none;
+    background-color: white;
+}
+.searchicon button:hover{
+    opacity: 0.77;
+}
+
+.nav1{
+    display: flex;
+    height: 60px;
+    background-color: rgb(6, 6, 33);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+}
+.nav-right{
+    display: flex;
+    justify-content: start;
+    /* width: 200px; */
+    margin-left: 15px;
+    flex: 1;
+    align-items: center;
+    
+}
+.acc{
+    margin-left: 28px;
+    
+}
+.returns{
+    margin-left: 25px;
+}
+.acc:hover{
+    border:1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 4px;
+}
+.returns:hover{
+    border:1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 4px;
+}
+.cart:hover{
+    border:1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 4px;
+}
+.nav2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(30, 43, 50);
+    height: 40px;
+    padding-top: 7px;
+    
+}
+.nav2 div{
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    
+}
+.nav2 div:hover{
+    border:1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 4px;
+}
+.nav2 div select{
+    background-color:rgb(30, 43, 50);
+    color: white;
+    margin-bottom: 10px;
+    border: 0;
+}
+.carousel-item{
+    height: 250px;
+    position: relative;
+    
+}
+.cards{
+    width: 1520px;
+    height: 860px;
+    background-color: rgb(227, 227, 227);
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card1{
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left:20px;
+    margin-right: 20px;
+}
+.card1 img:hover{
+         transform: scale(1.05);
+         box-shadow: 0px 5px 5px black;
+}
+.see:hover{
+    color: chocolate;
+}
+.grid{
+    display: grid;
+    grid-template-rows:350px 350px;
+    row-gap: 115px;
+    column-gap: 0px;
+    background-color: rgb(227, 227, 227);
+    /* width: 1268px; */
+    
+    
+}
+.bi {
+display: inline-block;
+
+}
+button.btn1{
+    width: 80px;
+    height: 43px;
+    background-color: rgb(30, 43, 50);
+    border: 0;
+    color:white;
+}
+button.btn1:hover{
+    background-color:rgb(30, 43, 50);
+}
+button.btn1:active{
+    background-color:rgb(30, 43, 50);
+}
+div.offcanvas-header{
+    background-color:rgb(30, 43, 50);
+
+}
+.btn-close{
+    color: white;
+}
